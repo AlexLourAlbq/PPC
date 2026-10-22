@@ -140,7 +140,3 @@ O resultado confirma que o laboratório passou nos critérios automáticos defin
 1. O pipeline ETL demonstrou que a divisão do processamento por etapas concorrentes e a utilização de filas podem reduzir o tempo de execução, mantendo os resultados de verificação iguais aos da versão sequencial.
 2. A limitação das filas permite aplicar backpressure e controlar a acumulação de elementos, enquanto a `PriorityQueue` permite favorecer tarefas urgentes que ainda estão à espera de processamento.
 3. Os testes de segurança demonstraram que é essencial compreender a atomicidade das operações e utilizar mecanismos de sincronização adequados, uma vez que operações compostas sobre dados partilhados podem provocar condições de corrida e perda de atualizações.
-
-## Nota para a entrega
-
-Antes de fazer commit, confirmar que `lab08/dados/` e `lab08/resumo.csv` estão excluídos do Git através do `.gitignore`, conforme indicado no guião. Depois, verificar as alterações e fazer commit/push para o repositório do projeto, se aplicável.
