@@ -133,7 +133,7 @@ As sete verificações passaram:
 - Comportamento esperado das estruturas partilhadas.
 - README com tabela, sentinela, backpressure e conclusões.
 
-O resultado confirma que o laboratório passou nos critérios automáticos definidos pelo verificador. Não substitui a confirmação de eventuais requisitos adicionais indicados pelo docente.
+O resultado confirma que o laboratório passou nos critérios automáticos definidos pelo verificador. Não substitui a confirmação de eventuais requisitos adicionais.
 
 ## Conclusões
 
